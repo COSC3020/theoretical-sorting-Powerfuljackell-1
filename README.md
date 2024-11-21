@@ -16,3 +16,9 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
+
+Given that I am able to setup a testing environment I would start off with the most basic operating system and options to run the code, reducing any possible confounding aspects to a theoretical zero. 
+From there I should be able to underclock the system (which realistically is not necessary, but would help in analysis) such that I am able to input one value and then a two value list in order to directly compare their speeds. 
+If the algorithm itself is in fact $O(n)$ then this should be able to give me an automatic confirmation, but for the sake of theory, comparing a list of four values to a list of two values should take twice as long and so on.
