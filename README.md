@@ -22,3 +22,5 @@ Add your answers to this markdown file.
 Given that I am able to setup a testing environment I would start off with the most basic operating system and options to run the code, reducing any possible confounding aspects to a theoretical zero. 
 From there I should be able to underclock the system (which realistically is not necessary, but would help in analysis) such that I am able to input one value and then a two value list in order to directly compare their speeds. 
 If the algorithm itself is in fact $O(n)$ then this should be able to give me an automatic confirmation, but for the sake of theory, comparing a list of four values to a list of two values should take twice as long and so on.
+As noted in class, nlogn is the fastest an algorithm can run, as the possible combination of values contained within an array of length n will always be at minimum n!. Thus to even surpass that would require the algorithm to somehow make the number of combinations less than n!.
+Which for an arbitrary set of inputs is impossible, at least repeatedly impossible.
